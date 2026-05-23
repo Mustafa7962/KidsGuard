@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KidsGuard</string>
+    <string name="accessibility_description">KidsGuard monitors the camera and automatically pauses YouTube Kids when your child looks away from the screen.</string>
+    <string name="notification_channel_name">KidsGuard Monitor</string>
+    <string name="notification_title">KidsGuard Active 👀</string>
+    <string name="notification_text">Watching for your child\'s face…</string>
+</resources>

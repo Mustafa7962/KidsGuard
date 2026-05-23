@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#E0F7FA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="👀"
+        android:textSize="64sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KidsGuard"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#0288D1"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auto-pauses YouTube Kids when\nyour child looks away"
+        android:textSize="14sp"
+        android:textColor="#666"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Status card -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="20dp"
+        android:layout_marginBottom="24dp"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⚫  Guard is OFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#666"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvAccessibility"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⚫  Accessibility: NOT enabled"
+            android:textSize="14sp"
+            android:textColor="#999"/>
+    </LinearLayout>
+
+    <!-- Main toggle button -->
+    <Button
+        android:id="@+id/btnToggle"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="▶  Start Guard"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#29B6F6"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Accessibility setup button -->
+    <Button
+        android:id="@+id/btnAccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="⚙️  Enable Accessibility (Required)"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#AB47BC"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ℹ️  Open YouTube Kids normally. KidsGuard runs in the background and pauses the video when your child looks away for 2 seconds."
+        android:textSize="12sp"
+        android:textColor="#888"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.4"/>
+
+</LinearLayout>
